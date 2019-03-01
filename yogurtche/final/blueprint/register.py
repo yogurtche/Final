@@ -7,6 +7,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, Final!'
 
 app.register_blueprint(user, url_prefix = "/api/v1/auth")
