@@ -12,3 +12,4 @@ def lair():
 @app.route("/api/v1/auth")
 def landing_page():
     return Response("Final, final, final!")
+    
